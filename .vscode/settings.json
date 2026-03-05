@@ -1,0 +1,6 @@
+{
+	"csharp.experimental.debug.hotReload": true,
+	"csharp.debug.hotReloadOnSave": true,
+	"omnisharp.enableRoslynAnalyzers": true,
+	"omnisharp.enableEditorConfigSupport": true
+}

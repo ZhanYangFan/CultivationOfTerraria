@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "build",
+			"command": "dotnet",
+			"type": "process",
+			"group": "build",
+			"presentation": { "reveal": "silent" },
+			"problemMatcher": "$msCompile",
+			"args": ["msbuild", "${workspaceFolder}/simpleMod.csproj", "/p:Configuration=Debug"]
+		}
+	]
+}

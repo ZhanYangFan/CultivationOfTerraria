@@ -1,0 +1,41 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "tModLoader (Terraria)",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${env:TML_STEAM_PATH}\\tModLoader.exe",
+			"cwd": "${env:TML_STEAM_PATH}",
+			"console": "internalConsole"
+		},
+		{
+			"name": "tModLoader - D盘 Steam",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "D:\\GameSpace\\steamapps\\common\\tModLoader\\tModLoader.exe",
+			"cwd": "D:\\GameSpace\\steamapps\\common\\tModLoader",
+			"console": "internalConsole"
+		},
+		{
+			"name": "tModLoader - C盘 Steam 默认",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\tModLoader\\tModLoader.exe",
+			"cwd": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\tModLoader",
+			"console": "internalConsole"
+		},
+		{
+			"name": "tModLoader Server",
+			"type": "coreclr",
+			"request": "launch",
+			"preLaunchTask": "build",
+			"program": "${env:TML_STEAM_PATH}\\tModLoaderServer.exe",
+			"cwd": "${env:TML_STEAM_PATH}",
+			"console": "internalConsole"
+		}
+	]
+}

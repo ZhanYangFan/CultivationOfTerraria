@@ -1,0 +1,15 @@
+# C# / tModLoader Mod 工程 - 编辑器与 C# 语言服务
+root = true
+
+[*.cs]
+charset = utf-8
+indent_style = tab
+indent_size = 4
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# 明确 C# 语言版本，便于智能提示
+[*.csproj]
+indent_style = space
+indent_size = 4
